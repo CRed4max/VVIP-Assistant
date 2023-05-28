@@ -1,0 +1,6 @@
+https://pynative.com/python/file-handling/
+
+https://note.nkmk.me/en/python-os-basename-dirname-split-splitext/
+
+https://www.studytonight.com/python-howtos/how-to-unzip-file-in-python#:~:text=Python%20Zipfile%20Module&text=Its%20extractall()%20function%20is,as%20in%20a%20different%20directory.
+

@@ -1,0 +1,40 @@
+tensorflow==2.11.0
+nltk==3.5
+colorama==0.4.3
+numpy==1.18.5
+scikit_learn==0.23.2
+Flask==1.1.2
+
+// Browser taks
+import os
+import keyboard
+import open
+import close
+from selenium import webdriver
+import time
+import webbrowser
+
+// General taks
+import screen_brightness_control as sbc
+from AppOpener import run
+import keyboard;
+import pyautogui
+import random;
+import os;
+from ctypes import cast, POINTER
+from comtypes import CLSCTX_ALL
+from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
+
+// File Management
+import speech_recognition as s_r
+import os
+import shutil
+import webbrowser
+
+// Gmail sending
+import smtplib, ssl
+from email import encoders
+from email.mime.text import MIMEText
+from email.mime.base import MIMEBase
+from email.mime.multipart import MIMEMultipart
+import os

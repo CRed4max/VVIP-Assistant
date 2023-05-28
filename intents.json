@@ -1,0 +1,504 @@
+{
+    "intents": [
+      {
+        "tag": "Rename",
+        "patterns": [
+          "Please rename the file",
+          "Rename the file",
+          "Change the name of the file",
+          "Please rename",
+          "Rename",
+          "Rename the file",
+          "Change file name",
+          "Change file name please",
+          "File name change",
+          "File name change please"
+        ],
+        "responses": ["Rename"]
+      },
+      {
+        "tag": "Delete",
+        "patterns": [
+          "Please Delete",
+          "Delete please",
+          "Please remove",
+          "Delete the file",
+          "Delete the file please",
+          "Remove the file please",
+          "Remove the file",
+          "Delete file",
+          "Remove file",
+          "Remove file please",
+          "Delete the folder",
+          "Delete the folder please",
+          "Remove folder",
+          "Remove directory please",
+          "Delete the directory",
+          "Delete the directory please",
+          "Remove the directory",
+          "Remove the directory please",
+          "Delete directory",
+          "Delete directory please",
+          "Remove directory",
+          "Remove directory please"
+        ],
+        "responses": ["Delete"]
+      },
+      {
+        "tag": "Search",
+        "patterns": [
+          "Please Search the file",
+          "please search file",
+          "Search the file",
+          "Search file",
+          "please check for the file",
+          "please check for file",
+          "check file",
+          "please check for file",
+          "check the file",
+          "find the file",
+          "please find the file",
+          "check whether file exist or not",
+          "check file existance",
+          "file exist or not",
+          "check wether the file is present or not",
+          "look for the file",
+          "please look for the file"
+        ],
+        "responses": ["Search"]
+      },
+      {
+        "tag": "Open",
+        "patterns": [
+          "Please open the file",
+          "open file",
+          "open the file please",
+          "can you please open the file",
+          "open the file please"
+        ],
+        "responses": ["open"]
+      },
+      {
+        "tag": "CreateFile",
+        "patterns": [
+          "create a file",
+          "Please create new file",
+          "create new file please",
+          "create new file",
+          "make new file",
+          "please make a new file",
+          "new file please",
+          ",make a new file please"
+        ],
+        "responses": ["CreateFile"]
+      },
+      {
+        "tag": "CreateFolder",
+        "patterns": [
+          "create the folder",
+          "Please create new folder",
+          "create new folder please",
+          "create new folder",
+          "make new folder",
+          "please make a new folder",
+          "new file folder",
+          "make a  new folder please",
+          "please create new directory",
+          "create new directory please",
+          "create new directory",
+          "make new directory",
+          "please make a new directory",
+          "new directory please",
+          "make a new directory please"
+        ],
+        "responses": ["CreateFolder"]
+      },
+      {
+        "tag": "Zip Directory",
+        "patterns": [
+          "please zip",
+          "Please zip folder",
+          "please zip directory",
+          "zip the folder",
+          "zip the directory",
+          "zip the folder please",
+          "zip the directory please",
+          "make zip of this folder",
+          "make zip of this directory",
+          "make a zip file",
+          "please make a zip file",
+          "create a zip file",
+          "create a zip file please"
+        ],
+        "responses": ["ZipDirectory"]
+      },
+      {
+        "tag": "UnZip Directory",
+        "patterns": [
+          "please unzip folder",
+          "please unzip directory",
+          "unzip the folder",
+          "unzip the directory",
+          "unzip the folder please",
+          "unzip the directory please",
+          "Extract all files please",
+          "please extract",
+          "Extract the zip file",
+          "extract from the zip file please"
+        ],
+        "responses": ["UnzipDirectory"]
+      },
+      {
+        "tag": "CopyPaste",
+        "patterns": [
+          "Copy the file and paste",
+          "copy the folder and paste",
+          "copy the directory and paste",
+          "please copy the folder and paste",
+          "please copy the directory and paste",
+          "copy and paste",
+          "copy and paste please",
+          "Please copy and paste"
+        ],
+        "responses": ["CopyPaste"]
+      },
+      {
+        "tag": "CutPaste",
+        "patterns": [
+          "Cut the file and paste",
+          "cut the folder and paste",
+          "cut the directory and paste",
+          "please cut the file and paste",
+          "please cut the folder and paste",
+          "cut and paste",
+          "cut and paste please",
+          "please cut and paste",
+          "please move the file",
+          "move the file please",
+          "move file",
+          "please move the folder",
+          "move folder",
+          "please move the directory",
+          "move the directory please",
+          "move directory"
+        ],
+        "responses": ["CutPaste"]
+      },
+      {
+        "tag": "Open Browser",
+        "patterns": [
+          "please open the browser",
+          "open browser",
+          "open the browser please",
+          "can you please open the browser",
+          "open the browser please"
+        ],
+        "responses": ["OpenBrowser"]
+      },
+      {
+        "tag": "Search In Browser",
+        "patterns": [
+          "please search in the browser",
+          "search in the browser",
+          "search the in the browser",
+          "find in the browser",
+          "please look for this in browser",
+          "look into browser",
+          "look into browser please",
+          "please look into browser"
+        ],
+        "responses": ["SearchInBrowser"]
+      },
+      {
+        "tag": "Close Tab",
+        "patterns": [
+          "Close Tab",
+          "Close the tab",
+          "please close the tab",
+          "can you please close the",
+          "exit the tab",
+          "can you please exit the tab",
+          "close this window",
+          "can you please close this window",
+          "Close the window",
+          "cut this window",
+          "cut the tab",
+          "cut the tab please",
+          "hey close the tab",
+          "hey can you please cut this window",
+          "shut the tab please",
+          "shut this tab",
+          "shut this tab as soon as possible",
+          "please shut the tan instantly"
+        ],
+        "responses": ["CloseTab"]
+      },
+      {
+        "tag": "Open Application",
+        "patterns": [
+          "Open the application",
+          "Please open the application",
+          "can you please open the application",
+          "on the application",
+          "can you please open the application for me",
+          "please start the application",
+          "start the application",
+          "wake up the application",
+          "switch on the application",
+          "open the application right now"
+        ],
+        "responses": ["OpenApplication"]
+      },
+      {
+        "tag": "Shut Down",
+        "patterns": [
+          "Shut down the pc",
+          "Shut down please",
+          "please shutdown the pc",
+          "please shut the pc down",
+          "please power off the pc",
+          "please shut down the computer",
+          "please shut down the laptop",
+          "please shut it down",
+          "please halt the pc",
+          "please switch off the pc",
+          "please switch off the laptop",
+          "halt the laptop",
+          "halt the pc",
+          "switch of the laptop",
+          "cutoff the power",
+          "cut the power of pc"
+        ],
+        "responses": ["ShutDown"]
+      },
+      {
+        "tag": "Restart",
+        "patterns": [
+          "Restart the pc",
+          "Restart the computer",
+          "Restart the laptop",
+          "please restart the system",
+          "restart the system",
+          "off and on the computer",
+          "switch off and switch on the computer",
+          "switch off and switch on the laptop",
+          "Reopen the computer",
+          "Reopen the laptop",
+          "Reopen the system",
+          "Turn off and turn on the computer",
+          "Turn on and turn off computer"
+        ],
+        "responses": ["Restart"]
+      },
+      {
+        "tag": "NumLock",
+        "patterns": [
+          "On the nums lock",
+          "Off the nums lock",
+          "Nums lock on",
+          "Nums lock off",
+          "Please on the numslock",
+          "Please awake the nums keys",
+          "Please off the nums keys",
+          "Turn on the nums key",
+          "Turn off the nums key",
+          "Press the numslock"
+        ],
+        "responses": ["NumsLock"]
+      },
+      {
+        "tag": "Caps Lock",
+        "patterns": [
+          "On the capslock",
+          "Off the capslock",
+          "capslock on",
+          "capslock off",
+          "Please on the capslock",
+          "please awake the capskey",
+          "Please off the capskey",
+          "Turn on the capas key",
+          "Turn off the caps key",
+          "Press the capslock"
+        ],
+        "responses": ["CapsLock"]
+      },
+      {
+        "tag": "Screenshot",
+        "patterns": [
+          "Take the screenshot",
+          "Please take the screeshot",
+          "Take its picture and save",
+          "Take the snapshot",
+          "Take the photo of this screen",
+          "Take the snapshot of the screen",
+          "Take the image of the screen",
+          "Please capture this screen",
+          "Capture the screen",
+          "Click photo of the screen",
+          "Take an shot of the screen",
+          "Grab the photo of the screen",
+          "Grab the photo of the display",
+          "Take photo of the disaply",
+          "Take snapshot of the disaply",
+          "Capture the display"
+        ],
+        "responses": ["Screenshot"]
+      },
+      {
+        "tag": "Mute",
+        "patterns": [
+          "Please mute the volume",
+          "Please decrease the volume to zero",
+          "Please stop the volume",
+          "Mute the song",
+          "Mute the volume",
+          "Mute the music",
+          "Reduce the volume to zero",
+          "Silent the volume",
+          "Stop voice of music or song",
+          "Quite the volume",
+          "Keep it silent"
+        ],
+        "responses": ["Mute"]
+      },
+      {
+        "tag": "Volume Increase",
+        "patterns": [
+          "Increase the volume",
+          "Make it louder",
+          "Volume increase please",
+          "Please increase the volume",
+          "Raise the volume of the song",
+          "Make the audio song louder",
+          "Increase the audio volume",
+          "Boost the volume",
+          "Increase the audio",
+          "Make audio louder",
+          "Raise the audio",
+          "Raiase the volume up"
+        ],
+        "responses": ["VolumeInc"]
+      },
+      {
+        "tag": "Volume Decrease",
+        "patterns": [
+          "Decrease the volume",
+          "Make it softer",
+          "Volume decrease please",
+          "please decrease the volume",
+          "reduce the volume of the song",
+          "make the audio song softer",
+          "Decrease the audio volume",
+          "Hinder the volume",
+          "Decrease the audio",
+          "Make audio softer",
+          "Lower the audio",
+          "Lower the volume down"
+        ],
+        "responses": ["VolumeDec"]
+      },
+      {
+        "tag": "BrightnessInc",
+        "patterns": [
+          "Increase the brightness",
+          "Increase the brightness please",
+          "Please Increase the brightness",
+          "Make it more visible",
+          "Make screen more clear",
+          "Make screen brighter",
+          "Brighten the screen please",
+          "Brighten the screen",
+          "Increase the light of the screen",
+          "Glow the screen",
+          "Increase the screen glow",
+          "Increase the luminosity",
+          "Increase the luminance",
+          "Increase the shine of the screen"
+        ],
+        "responses": ["BrightnessInc"]
+      },
+      {
+        "tag": "BrightnessDec",
+        "patterns": [
+          "Decrease the brightness",
+          "Decrease the brightness please",
+          "Please decrease the brightness",
+          "make it more less visible",
+          "make screen less visible",
+          "make screen more clear",
+          "make screen darker",
+          "Dim the screen please",
+          "Dim the screen",
+          "Decrease the light of the screen",
+          "Decrease the screen glow",
+          "Decrease the luminosity",
+          "Decresase the luminance",
+          "Decrease the shine of the screen",
+          "Increase the darkness",
+          "Increase the darkness of the screen",
+          "Please Increase the darkness",
+          "please darken the screen litte"
+        ],
+        "responses": ["BrightnessDec"]
+      },
+      {
+        "tag": "Open new tab in new window",
+        "patterns": [
+          "Open new tab in new window",
+          "Open the tab in new winodw",
+          "Please open the new tab in new window",
+          "Open tab in window new",
+          "open the tab in different window",
+          "Open the tab in different window",
+          "Open the tab in brand new window",
+          "Open the brand new tab in brand new window",
+          "Open brand new tab in different window"
+        ],
+        "responses": ["OpenNewTabInNewWindow"]
+      },
+      {
+        "tag": "Close the current tab",
+        "patterns": [
+          "Close the current tab",
+          "Close this tab",
+          "Cut this tab",
+          "Remove this tab",
+          "Cut this opened tab"
+        ],
+        "responses": ["CloseTheCurrentTab"]
+      },
+      {
+        "tag": "Close The Application",
+        "patterns": [
+          "Close the browser",
+          "Close this browser",
+          "Cut this browser",
+          "Terminate this browser",
+          "Terminate the browser",
+          "Terminate the session",
+          "Close this window",
+          "Close the all tabs"
+        ],
+        "responses": ["CloseTheApplication"]
+      },
+      {
+        "tag": "SendMail",
+        "patterns": [
+          "Send a mail",
+          "Send a Gmail",
+          "Send a email", 
+          "Please send a mail",
+          "Please send a gmail",
+          "Please send a email",
+          "Can you please send a gmail",
+          "Can you please send a email",
+          "Can you please send a mail",
+          "Please can you send a mail",
+          "Please can you send a gmail",
+          "Please can you send a email"
+        ],
+        "responses": ["SendMail"]
+      }
+    ]
+  }
+  
